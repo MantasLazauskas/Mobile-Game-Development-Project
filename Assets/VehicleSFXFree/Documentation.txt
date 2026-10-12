@@ -1,0 +1,35 @@
+Vehicle SFX Free
+
+Documentation. 30 sounds as WAV (48 kHz, 24-bit, mono), one AudioClip each, a folder
+per kind:
+
+  car/ (6)
+    door_close_01, door_open_01, indicator_loop, keys_jingle_01, lock_chirp, trunk_close
+  crashes/ (4)
+    crash_car_01, crash_wall_01, metal_scrape_01, windscreen_shatter_01
+  driving/ (8)
+    backfire_01, car_accelerate, car_passby, car_rev, car_start, car_stop, motorbike_rev, truck_start
+  engines/ (2)
+    car_idle_loop, car_mid_loop
+  horns/ (3)
+    bicycle_bell_01, car_horn_short_01, truck_air_horn_01
+  others/ (1)
+    helicopter_loop
+  sirens/ (1)
+    police_wail_loop
+  transit/ (2)
+    air_brake_01, reverse_beeper_loop
+  tyres/ (3)
+    skid_long_01, skid_short_01, tyre_burst
+
+  Demo/VehicleSFXFreeDemo.unity   a button per sound
+
+Play one with AudioSource.PlayOneShot(clip). The WAVs import in any Unity version; the demo
+scene needs Unity 6.3 or later.
+
+
+Each file carries its type's prefix (T_ texture, M_ material, PF_ prefab, L_ scene, SH_ shader, AN_ clip,
+AC_ controller, A_ audio, SM_ mesh, F_ font, DA_ data asset); this guide names files without it.
+
+Made and licensed by heyheythere. This Fab purchase uses the Fab licence.
+Third-party component details are in Third-Party Notices.txt.
