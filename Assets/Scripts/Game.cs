@@ -68,6 +68,12 @@ public class Game : MonoBehaviour
         StartRun();
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quit");
+    }
+
     void StartRun()
     {
         timer = 0f;
