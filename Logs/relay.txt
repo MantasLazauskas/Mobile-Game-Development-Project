@@ -786,3 +786,6 @@
 [2026-11-16T14:32:32.399Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
 [2026-11-16T14:32:32.868Z] [INFO] log Unity client connected with ID: editor-10812-utzxwo (relay 1.0.12-build.99)
 [2026-11-16T14:32:32.869Z] [INFO] connection.established clientId=editor-10812-utzxwo port=9001
+[2026-11-16T17:00:49.414Z] [INFO] log Shutdown request received from client editor-10812-utzxwo
+[2026-11-16T17:00:49.416Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-11-16T17:00:49.417Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
